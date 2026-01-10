@@ -39,15 +39,15 @@ const Landing = () => {
 
                         <div className="pricing-grid">
                             {/* Developer Plan */}
-                            <div className="pricing-card">
-                                <div className="pricing-tier">Developer</div>
-                                <p className="pricing-description">Perfect for side projects</p>
-                                <div className="pricing-price">$0</div>
-                                <p className="pricing-period">Forever free</p>
-                                <button className="pricing-btn pricing-btn-secondary">
+                            <div className="pricingcard">
+                                <div className="pricingtier">Developer</div>
+                                <p className="pricingdescription">Perfect for side projects</p>
+                                <div className="pricingprice">$0</div>
+                                <p className="pricingperiod">Forever free</p>
+                                <button className="pricingbtn pricingbtnsecondary">
                                     Start Free
                                 </button>
-                                <ul className="pricing-features">
+                                <ul className="pricingfeatures">
                                     <li>Up to 10 functions</li>
                                     <li>Single AWS account</li>
                                     <li>Email alerts</li>
@@ -56,16 +56,16 @@ const Landing = () => {
                             </div>
 
                             {/* Team Plan - Featured */}
-                            <div className="pricing-card pricing-card-featured">
-                                <div className="pricing-popular-badge">Popular</div>
-                                <div className="pricing-tier">Team</div>
-                                <p className="pricing-description">For growing teams</p>
-                                <div className="pricing-price">$99</div>
-                                <p className="pricing-period">per month</p>
-                                <button className="pricing-btn pricing-btn-primary">
+                            <div className="pricingcard pricingcardfeatured">
+                                <div className="pricingpopularbadge">Popular</div>
+                                <div className="pricingtier">Team</div>
+                                <p className="pricingdescription">For growing teams</p>
+                                <div className="pricingprice">$99</div>
+                                <p className="pricingperiod">per month</p>
+                                <button className="pricingbtn pricingbtnprimary">
                                     Get Started
                                 </button>
-                                <ul className="pricing-features">
+                                <ul className="pricingfeatures">
                                     <li>Up to 100 functions</li>
                                     <li>Multi-account support</li>
                                     <li>Slack & PagerDuty integration</li>
@@ -75,15 +75,15 @@ const Landing = () => {
                             </div>
 
                             {/* Enterprise Plan */}
-                            <div className="pricing-card">
-                                <div className="pricing-tier">Enterprise</div>
-                                <p className="pricing-description">For large organizations</p>
-                                <div className="pricing-price">Custom</div>
-                                <p className="pricing-period">Contact us</p>
-                                <button className="pricing-btn pricing-btn-secondary">
+                            <div className="pricingcard">
+                                <div className="pricingtier">Enterprise</div>
+                                <p className="pricingdescription">For large organizations</p>
+                                <div className="pricingprice">Custom</div>
+                                <p className="pricingperiod">Contact us</p>
+                                <button className="pricingbtn pricingbtnsecondary">
                                     Contact Sales
                                 </button>
-                                <ul className="pricing-features">
+                                <ul className="pricingfeatures">
                                     <li>Unlimited functions</li>
                                     <li>SSO & SAML</li>
                                     <li>Custom integrations</li>
