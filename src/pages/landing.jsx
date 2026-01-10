@@ -31,13 +31,13 @@ const Landing = () => {
                 </section>
 
                 <section className="pricing">
-                    <div className="pricing-container">
-                        <div className="pricing-header">
-                            <span className="pricing-badge">Pricing</span>
+                    <div className="pricingcontainer">
+                        <div className="pricingheader">
+                            <span className="pricingbadge">Pricing</span>
                             <h2>Simple, Transparent Pricing</h2>
                         </div>
 
-                        <div className="pricing-grid">
+                        <div className="pricinggrid">
                             {/* Developer Plan */}
                             <div className="pricingcard">
                                 <div className="pricingtier">Developer</div>
