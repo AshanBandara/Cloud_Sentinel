@@ -1,3 +1,46 @@
 h1{
     color: #646cff;
 }
+
+.hero {
+  min-height: 100vh;
+  background-image: url("/images/Backgroundimage.png");
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+}
+
+.hero-overlay {
+  min-height: 100vh;
+  /* background: linear-gradient(
+    rgba(11, 18, 32, 0.85),
+    rgba(11, 18, 32, 0.95)
+  ); */
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  text-align: left;
+}
+
+.hero-content {
+  max-width: 900px;
+  padding: 0 20px;
+}
+
+.hero-content h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.hero-content h1 span {
+  color: #3b82f6;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  color: #cbd5e1;
+  max-width: 800px;
+}
