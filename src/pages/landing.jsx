@@ -23,6 +23,14 @@ const Landing = () => {
                         </div>
                     </div>
                 </section>
+                <section className="section 3">
+                </section>
+
+                <section className="section 4">
+                </section>
+
+                <section className="pricing">
+                </section>
                 
             </main>
             <footer>
