@@ -23,6 +23,78 @@ const Landing = () => {
                         </div>
                     </div>
                 </section>
+
+                                <section className="section 3">
+                </section>
+
+                <section className="section 4">
+                </section>
+
+                <section className="pricing">
+                    <div className="pricing-container">
+                        <div className="pricing-header">
+                            <span className="pricing-badge">Pricing</span>
+                            <h2>Simple, Transparent Pricing</h2>
+                        </div>
+
+                        <div className="pricing-grid">
+                            {/* Developer Plan */}
+                            <div className="pricing-card">
+                                <div className="pricing-tier">Developer</div>
+                                <p className="pricing-description">Perfect for side projects</p>
+                                <div className="pricing-price">$0</div>
+                                <p className="pricing-period">Forever free</p>
+                                <button className="pricing-btn pricing-btn-secondary">
+                                    Start Free
+                                </button>
+                                <ul className="pricing-features">
+                                    <li>Up to 10 functions</li>
+                                    <li>Single AWS account</li>
+                                    <li>Email alerts</li>
+                                    <li>7-day history</li>
+                                </ul>
+                            </div>
+
+                            {/* Team Plan - Featured */}
+                            <div className="pricing-card pricing-card-featured">
+                                <div className="pricing-popular-badge">Popular</div>
+                                <div className="pricing-tier">Team</div>
+                                <p className="pricing-description">For growing teams</p>
+                                <div className="pricing-price">$99</div>
+                                <p className="pricing-period">per month</p>
+                                <button className="pricing-btn pricing-btn-primary">
+                                    Get Started
+                                </button>
+                                <ul className="pricing-features">
+                                    <li>Up to 100 functions</li>
+                                    <li>Multi-account support</li>
+                                    <li>Slack & PagerDuty integration</li>
+                                    <li>90-day history</li>
+                                    <li>Priority support</li>
+                                </ul>
+                            </div>
+
+                            {/* Enterprise Plan */}
+                            <div className="pricing-card">
+                                <div className="pricing-tier">Enterprise</div>
+                                <p className="pricing-description">For large organizations</p>
+                                <div className="pricing-price">Custom</div>
+                                <p className="pricing-period">Contact us</p>
+                                <button className="pricing-btn pricing-btn-secondary">
+                                    Contact Sales
+                                </button>
+                                <ul className="pricing-features">
+                                    <li>Unlimited functions</li>
+                                    <li>SSO & SAML</li>
+                                    <li>Custom integrations</li>
+                                    <li>Unlimited history</li>
+                                    <li>Dedicated support</li>
+                                    <li>On-premise deployment option</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
                 
             </main>
             <footer>
