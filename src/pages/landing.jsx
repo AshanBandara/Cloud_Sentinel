@@ -181,22 +181,8 @@ const Landing = () => {
             </footer>
         </div>
     );
-              <p>
-                Detect, monitor, and protect AWS Lambda functions from
-                misconfigurations and security risks — in real time.
-              </p>
-
-              <button className="hero-btn">Get Started</button>
-            </div>
-          </div>
-        </section>
-      </main>
-      <footer>
-        <p>© 2024 Cloud Sentinel. All rights reserved.</p>
-      </footer>
-    </div>
-  );
-};
+};            
+    
 
 export default Landing;
 
