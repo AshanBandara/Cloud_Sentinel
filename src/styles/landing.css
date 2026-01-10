@@ -44,3 +44,20 @@ h1{
   color: #cbd5e1;
   max-width: 800px;
 }
+
+.hero-btn {
+  background-color: #123859;
+  border: solid 2px #abfefe;
+  margin-top: 24px;
+  padding: 14px 32px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.hero-btn:hover {
+  background-color: #21499e;
+}

@@ -4,7 +4,7 @@ const Landing = () => {
     return (
         <div>
             <header> 
-                
+
             </header>
             <main>
                 <section className="hero">
@@ -18,6 +18,8 @@ const Landing = () => {
                                 Detect, monitor, and protect AWS Lambda functions from
                                 misconfigurations and security risks — in real time.
                             </p>
+                            
+                            <button className="hero-btn">Get Started</button>
                         </div>
                     </div>
                 </section>
