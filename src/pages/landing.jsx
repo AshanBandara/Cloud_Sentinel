@@ -3,18 +3,46 @@
 import "../styles/landing.css";
 
 const Landing = () => {
-    return (
-        <div>
-            <header> 
+  return (
+    <div>
+      <header>
+        <nav className="navbar">
+          <div className="logo">
+            <div className="logo-icon">
+              <img src="src\assets\logo.png" alt="Cloud Sentinel Logo" />
+            </div>
+            <span className="logotext">Cloud Sentinel</span>
+          </div>
 
-            </header>
-            <main>
-                <section className="hero">
-                    <div className="hero-overlay">
-                        <div className="hero-content">
-                            <h1>
-                                Serverless Security <br /> <span>Made Effortless</span>
-                            </h1>
+          <ul className="nav-links">
+            <li>
+              <a href="#features">Features</a>
+            </li>
+            <li>
+              <a href="#pricing">Pricing</a>
+            </li>
+            <li>
+              <a href="#roadmap">Roadmap</a>
+            </li>
+            <li>
+              <a href="#docs">Docs</a>
+            </li>
+          </ul>
+
+          <div className="nav-actions">
+            <button className="btn-login">Log in</button>
+            <button className="btn-primary">Start Free</button>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section className="hero">
+          <div className="hero-overlay">
+            <div className="hero-content">
+              <h1>
+                Serverless Security <br /> <span>Made Effortless</span>
+              </h1>
 
                             <p>
                                 Detect, monitor, and protect AWS Lambda functions from
@@ -209,25 +237,26 @@ const Landing = () => {
                 </section>
                 
             </main>
+
             <footer>
                 <div className="container">
                     <div className="footer-content">
                         <div className="footer-brand">
                             <div className="footer-logo">
-                                <div className="logo-icon">🛡️</div>
+                                <div class="logo-icon">🛡️</div>
                                 Cloud Sentinel
                             </div>
-                            <p className="footer-description">
+                            <p class="footer-description">
                                 Serverless security made effortless. Protect your AWS Lambda functions with automated scanning, IAM analysis, and real-time alerts.
                             </p>
-                            <div className="social-links">
-                                <a href="#" className="social-link">𝕏</a>
-                                <a href="#" className="social-link">in</a>
-                                <a href="#" className="social-link">Git</a>
+                            <div class="social-links">
+                                <a href="#" class="social-link">𝕏</a>
+                                <a href="#" class="social-link">in</a>
+                                <a href="#" class="social-link">Git</a>
                             </div>
                         </div>
 
-                        <div className="footer-column">
+                        <div class="footer-column">
                             <h4>Product</h4>
                             <ul>
                                 <li><a href="#">Features</a></li>
@@ -237,7 +266,7 @@ const Landing = () => {
                             </ul>
                         </div>
 
-                        <div className="footer-column">
+                        <div class="footer-column">
                             <h4>Company</h4>
                             <ul>
                                 <li><a href="#">About</a></li>
@@ -247,7 +276,7 @@ const Landing = () => {
                             </ul>
                         </div>
 
-                        <div className="footer-column">
+                        <div class="footer-column">
                             <h4>Legal</h4>
                             <ul>
                                 <li><a href="#">Privacy</a></li>
@@ -258,13 +287,14 @@ const Landing = () => {
                         </div>
                     </div>
 
-                    <div className="footer-bottom">
+                    <div class="footer-bottom">
                         <p>© 2025 Cloud Sentinel. All rights reserved.</p>
                     </div>
                 </div>
-            </footer>
+                </footer>
         </div>
     );
-};
+};            
+    
 
 export default Landing;
