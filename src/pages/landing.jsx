@@ -286,7 +286,7 @@ const Landing = () => {
           <div className="footer-content">
             <div className="footer-brand">
               <div className="footer-logo">
-                <div className="logo-icon">🛡️</div>
+                <div className="logo-logotext"></div>
                 <span>Cloud Sentinel</span>
               </div>
               <p className="footer-description">
@@ -324,13 +324,7 @@ const Landing = () => {
                   <a href="#">Features</a>
                 </li>
                 <li>
-                  <a href="#">Pricing</a>
-                </li>
-                <li>
-                  <a href="#">Roadmap</a>
-                </li>
-                <li>
-                  <a href="#">Docs</a>
+                  <a href="#pricing">Pricing</a>
                 </li>
               </ul>
             </div>
