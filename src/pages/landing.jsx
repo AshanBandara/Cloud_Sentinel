@@ -286,7 +286,9 @@ const Landing = () => {
           <div className="footer-content">
             <div className="footer-brand">
               <div className="footer-logo">
-                <div className="logo-logotext"></div>
+                <div className="logo-icon">
+                  <img src="/src/assets/logo.png" alt="Cloud Sentinel Logo" />
+                </div>
                 <span>Cloud Sentinel</span>
               </div>
               <p className="footer-description">
