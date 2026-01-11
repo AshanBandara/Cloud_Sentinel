@@ -321,7 +321,7 @@ const Landing = () => {
               <h4>PRODUCT</h4>
               <ul>
                 <li>
-                  <a href="#">Features</a>
+                  <a href="#how-it-works">Features</a>
                 </li>
                 <li>
                   <a href="#pricing">Pricing</a>
