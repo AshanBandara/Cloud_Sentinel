@@ -77,7 +77,7 @@ const Landing = () => {
                           <p className="features-tag">THE PROBLEM</p>
                           <h2>Why Serverless Security Is Hard</h2>
                           <p>Traditional security tools struggle with the ephemeral nature of serverless functions. Legacy agents don't work where there are no servers to manage.</p>
-                          <a href="#" className="read-more">Read our whitepaper →</a>
+                          <a href="#" className="read-more">Read our Research</a>
                       </div>
 
                       {/* Right Side - Cards Grid */}
@@ -132,7 +132,7 @@ const Landing = () => {
           </section>
         </section>
 
-        {/* Section 4 - Cloud Sentinel Has You Covered */}
+        {/* Section 4 */}
         <section className="section-4" id="how-it-works">
           <div className="how-it-works">
             <div className="section-header">
