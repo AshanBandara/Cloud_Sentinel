@@ -203,19 +203,19 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
    ======================================== */
 
 .section-3 {
-    min-height: 400px;
-    padding: 4rem 2rem !important;
-    background: transparent;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
-/* STATS SECTION - THIS WAS MISSING IN YOUR CODE! */
+/*  STATS */
+
 .stats-section {
   background-color: #0f1729;
-  padding: 100px 40px 140px 40px;  /* Added proper padding */
+  padding: 6rem 2rem 5rem 2rem;
 }
 
 .stats-container {
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -223,50 +223,26 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
   text-align: center;
 }
 
-.stat-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
 .stat-item h3 {
-  font-size: 3.5rem;
+  font-size: 3.2rem;
   font-weight: 700;
-  margin-bottom: 10px;
-  color: #ffffff;
-}
-
-.stat-item:nth-child(1) h3 {
-  color: #3b82f6;  
-}
-
-.stat-item:nth-child(2) h3 {
-  color: #ffffff;  
-}
-
-.stat-item:nth-child(3) h3 {
-  color: #ffffff;  
-}
-
-.stat-item:nth-child(4) h3 {
-  color: #3b82f6;  
 }
 
 .stat-item p {
-  color: #64748b;
+  margin-top: 6px;
   font-size: 0.85rem;
+  color: #64748b;
 }
 
-/* FEATURES SECTION */
+/* FEATURES */
+
 .features-section {
   background-color: #0f1729;
-  padding: 100px 40px 150px 40px;  /* Increased from 60px to match your spacing */
-  min-height: 100vh;
+  padding: 6rem 2rem 8rem 2rem;
 }
 
 .features-container {
-  max-width: 1100px;  /* Using your more compact width */
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -274,142 +250,44 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
   display: grid;
   grid-template-columns: 380px 1fr;
   gap: 80px;
-  align-items: start;
 }
 
+/* Sticky text column */
 .features-left {
   position: sticky;
-  top: 100px;
-}
-
-.features-tag {
-  color: #3b82f6;
-  font-size: 0.75rem;  /* Your larger size */
-  font-weight: 600;
-  letter-spacing: 1.5px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
+  top: 120px;
 }
 
 .features-left h2 {
-  color: #ffffff;
-  font-size: 3rem;  /* Your larger size */
-  font-weight: 700;
+  font-size: 3rem;
   line-height: 1.2;
-  margin-bottom: 30px;
 }
 
-.features-left p {
-  color: #94a3b8;
-  font-size: 1.05rem;  /* Your larger size */
-  line-height: 1.8;
-  margin-bottom: 30px;
-}
-
-.read-more {
-  color: #3b82f6;
-  font-weight: 600;
-  font-size: 0.95rem;  /* Your larger size */
-  text-decoration: none;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  transition: color 0.2s ease;  /* Added smooth transition */
-}
-
-.read-more:hover {
-  color: #60a5fa;
-}
-
+/* Cards grid */
 .features-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 24px;  /* Your larger gap */
+  gap: 24px;
 }
 
 .feature-card {
-  background: rgba(30, 41, 59, 0.4);
-  backdrop-filter: blur(10px);
+  background: rgba(30, 41, 59, 0.45);
   border: 1px solid #2d3748;
   border-radius: 16px;
-  padding: 36px;  /* Your larger padding */
+  padding: 36px;
   transition: all 0.3s ease;
-  display: flex;  /* Added for better layout */
-  flex-direction: column;  /* Added for better layout */
 }
 
 .feature-card:hover {
-  border-color: #3b82f6;
   transform: translateY(-4px);
-  background: rgba(30, 41, 59, 0.6);
-  box-shadow: 0 10px 30px rgba(59, 130, 246, 0.2);  /* Added depth */
+  border-color: #3b82f6;
+  box-shadow: 0 10px 30px rgba(59, 130, 246, 0.25);
 }
 
-.feature-icon {
-  width: 56px;  /* Your larger size */
-  height: 56px;  /* Your larger size */
-  border-radius: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 24px;
-}
-
-.feature-icon.red {
-  background-color: rgba(239, 68, 68, 0.15);
-}
-
-.feature-icon.orange {
-  background-color: rgba(251, 146, 60, 0.15);
-}
-
-.feature-icon.yellow {
-  background-color: rgba(234, 179, 8, 0.15);
-}
-
-.feature-icon.purple {
-  background-color: rgba(168, 85, 247, 0.15);
-}
-
-.icon {
-  width: 28px;  /* Your larger size */
-  height: 28px;  /* Your larger size */
-}
-
-.icon.red {
-  color: #ef4444;
-}
-
-.icon.orange {
-  color: #fb923c;
-}
-
-.icon.yellow {
-  color: #eab308;
-}
-
-.icon.purple {
-  color: #a855f7;
-}
-
-.feature-card h3 {
-  color: #ffffff;
-  font-size: 1.3rem;  /* Your larger size */
-  font-weight: 600;
-  margin-bottom: 16px;
-}
-
-.feature-card p {
-  color: #94a3b8;
-  font-size: 0.95rem;  /* Your larger size */
-  line-height: 1.7;
-}
-
-/* RESPONSIVE DESIGN */
 @media (max-width: 1024px) {
   .features-content {
     grid-template-columns: 1fr;
-    gap: 40px;
+    gap: 48px;
   }
 
   .features-left {
@@ -418,75 +296,19 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
 }
 
 @media (max-width: 768px) {
-  .stats-section {
-    padding: 60px 20px 100px 20px;  /* Mobile padding */
-  }
-
-  .features-section {
-    padding: 60px 20px 100px 20px;  /* Mobile padding */
-  }
-
   .stats-container {
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-  }
-
-  .stat-item h3 {
-    font-size: 2rem;
+    gap: 32px;
   }
 
   .features-grid {
     grid-template-columns: 1fr;
-    gap: 16px;
   }
-  
+
   .features-left h2 {
     font-size: 2rem;
   }
-
-  .feature-card {
-    padding: 28px;  /* Reduced for mobile */
-  }
 }
-
-@media (max-width: 480px) {
-  .stats-section {
-    padding: 40px 16px 80px 16px;
-  }
-
-  .features-section {
-    padding: 40px 16px 80px 16px;
-  }
-
-  .stat-item h3 {
-    font-size: 1.75rem;
-  }
-  
-  .stat-item p {
-    font-size: 0.75rem;
-  }
-  
-  .features-left h2 {
-    font-size: 1.75rem;
-  }
-
-  .features-left p {
-    font-size: 0.9rem;
-  }
-  
-  .feature-card {
-    padding: 20px;
-  }
-
-  .feature-card h3 {
-    font-size: 1.15rem;
-  }
-
-  .feature-card p {
-    font-size: 0.88rem;
-  }
-}
-
 
 /* ========================================
    SECTION 4 - CLOUD SENTINEL
