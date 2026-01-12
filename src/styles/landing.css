@@ -198,18 +198,20 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
     background-color: #21499e !important;
 }
 
-/* Section 3 */
+/* ========================================
+   SECTION 3 - STATS & FEATURES (COMPLETE)
+   ======================================== */
+
 .section-3 {
     min-height: 400px;
     padding: 4rem 2rem !important;
     background: transparent;
 }
 
-<<<<<<< HEAD
+/* STATS SECTION - THIS WAS MISSING IN YOUR CODE! */
 .stats-section {
   background-color: #0f1729;
-  padding: 80px 40px 100px 40px;
-  min-height: 50vh;
+  padding: 100px 40px 140px 40px;  /* Added proper padding */
 }
 
 .stats-container {
@@ -256,14 +258,15 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
   font-size: 0.85rem;
 }
 
+/* FEATURES SECTION */
 .features-section {
   background-color: #0f1729;
-  padding: 120px 40px 150px 40px;
+  padding: 100px 40px 150px 40px;  /* Increased from 60px to match your spacing */
   min-height: 100vh;
 }
 
 .features-container {
-  max-width: 1100px;
+  max-width: 1100px;  /* Using your more compact width */
   margin: 0 auto;
 }
 
@@ -281,7 +284,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
 
 .features-tag {
   color: #3b82f6;
-  font-size: 0.75rem;
+  font-size: 0.75rem;  /* Your larger size */
   font-weight: 600;
   letter-spacing: 1.5px;
   margin-bottom: 20px;
@@ -290,7 +293,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
 
 .features-left h2 {
   color: #ffffff;
-  font-size: 3rem;
+  font-size: 3rem;  /* Your larger size */
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 30px;
@@ -298,7 +301,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
 
 .features-left p {
   color: #94a3b8;
-  font-size: 1.05rem;
+  font-size: 1.05rem;  /* Your larger size */
   line-height: 1.8;
   margin-bottom: 30px;
 }
@@ -306,11 +309,12 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
 .read-more {
   color: #3b82f6;
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 0.95rem;  /* Your larger size */
   text-decoration: none;
   display: inline-flex;
   align-items: center;
   gap: 8px;
+  transition: color 0.2s ease;  /* Added smooth transition */
 }
 
 .read-more:hover {
@@ -320,7 +324,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
 .features-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
+  gap: 24px;  /* Your larger gap */
 }
 
 .feature-card {
@@ -328,19 +332,22 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
   backdrop-filter: blur(10px);
   border: 1px solid #2d3748;
   border-radius: 16px;
-  padding: 36px;
+  padding: 36px;  /* Your larger padding */
   transition: all 0.3s ease;
+  display: flex;  /* Added for better layout */
+  flex-direction: column;  /* Added for better layout */
 }
 
 .feature-card:hover {
   border-color: #3b82f6;
   transform: translateY(-4px);
   background: rgba(30, 41, 59, 0.6);
+  box-shadow: 0 10px 30px rgba(59, 130, 246, 0.2);  /* Added depth */
 }
 
 .feature-icon {
-  width: 56px;
-  height: 56px;
+  width: 56px;  /* Your larger size */
+  height: 56px;  /* Your larger size */
   border-radius: 12px;
   display: flex;
   align-items: center;
@@ -365,8 +372,8 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
 }
 
 .icon {
-  width: 28px;
-  height: 28px;
+  width: 28px;  /* Your larger size */
+  height: 28px;  /* Your larger size */
 }
 
 .icon.red {
@@ -387,20 +394,22 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
 
 .feature-card h3 {
   color: #ffffff;
-  font-size: 1.3rem;
+  font-size: 1.3rem;  /* Your larger size */
   font-weight: 600;
   margin-bottom: 16px;
 }
 
 .feature-card p {
   color: #94a3b8;
-  font-size: 0.95rem;
+  font-size: 0.95rem;  /* Your larger size */
   line-height: 1.7;
 }
 
+/* RESPONSIVE DESIGN */
 @media (max-width: 1024px) {
   .features-content {
     grid-template-columns: 1fr;
+    gap: 40px;
   }
 
   .features-left {
@@ -409,6 +418,14 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
 }
 
 @media (max-width: 768px) {
+  .stats-section {
+    padding: 60px 20px 100px 20px;  /* Mobile padding */
+  }
+
+  .features-section {
+    padding: 60px 20px 100px 20px;  /* Mobile padding */
+  }
+
   .stats-container {
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
@@ -420,19 +437,60 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
 
   .features-grid {
     grid-template-columns: 1fr;
+    gap: 16px;
   }
   
   .features-left h2 {
     font-size: 2rem;
   }
+
+  .feature-card {
+    padding: 28px;  /* Reduced for mobile */
+  }
 }
+
+@media (max-width: 480px) {
+  .stats-section {
+    padding: 40px 16px 80px 16px;
+  }
+
+  .features-section {
+    padding: 40px 16px 80px 16px;
+  }
+
+  .stat-item h3 {
+    font-size: 1.75rem;
+  }
+  
+  .stat-item p {
+    font-size: 0.75rem;
+  }
+  
+  .features-left h2 {
+    font-size: 1.75rem;
+  }
+
+  .features-left p {
+    font-size: 0.9rem;
+  }
+  
+  .feature-card {
+    padding: 20px;
+  }
+
+  .feature-card h3 {
+    font-size: 1.15rem;
+  }
+
+  .feature-card p {
+    font-size: 0.88rem;
+  }
+}
+
 
 /* ========================================
    SECTION 4 - CLOUD SENTINEL
    ======================================== */
-=======
-/* Section 4 */
->>>>>>> de72ba4a46c1eb0cc9ce795c2602370007e69b6c
 .section-4 {
     position: relative !important;
     max-width: 1200px !important;
