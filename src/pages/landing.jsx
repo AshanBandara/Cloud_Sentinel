@@ -7,7 +7,7 @@ const Landing = () => {
         <nav className="navbar">
           <div className="logo">
             <div className="logo-icon">
-              <img src="/src/assets/logo.png" alt="Cloud Sentinel Logo" />
+              <img src="/images/logo.png" alt="Cloud Sentinel Logo" />
             </div>
             <span className="logotext">Cloud Sentinel</span>
           </div>
@@ -370,7 +370,7 @@ const Landing = () => {
             <div className="footer-brand">
               <div className="footer-logo">
                 <div className="logo-icon">
-                  <img src="/src/assets/logo.png" alt="Cloud Sentinel Logo" />
+                  <img src="/images/logo.png" alt="Cloud Sentinel Logo" />
                 </div>
                 <span>Cloud Sentinel</span>
               </div>
