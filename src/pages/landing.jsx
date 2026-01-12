@@ -46,7 +46,90 @@ const Landing = () => {
 
         {/* Section 3 - Placeholder */}
         <section className="section-3">
-          {/* Kithminis content goes here */}
+          {/* Stats Section */}
+          <section className="stats-section">
+              <div className="stats-container">
+                  <div className="stat-item">
+                      <h3>0s</h3>
+                      <p>Latency Added</p>
+                  </div>
+                  <div className="stat-item">
+                      <h3>500+</h3>
+                      <p>Rules Built-in</p>
+                  </div>
+                  <div className="stat-item">
+                      <h3>100%</h3>
+                      <p>AWS Coverage</p>
+                  </div>
+                  <div className="stat-item">
+                      <h3>24/7</h3>
+                      <p>Real-time Monitoring</p>
+                  </div>
+              </div>
+          </section>
+
+          {/* Features Section */}
+          <section className="features-section">
+              <div className="features-container">
+                  <div className="features-content">
+                      {/* Left Side - Text */}
+                      <div className="features-left">
+                          <p className="features-tag">THE PROBLEM</p>
+                          <h2>Why Serverless Security Is Hard</h2>
+                          <p>Traditional security tools struggle with the ephemeral nature of serverless functions. Legacy agents don't work where there are no servers to manage.</p>
+                          <a href="#" className="read-more">Read our whitepaper →</a>
+                      </div>
+
+                      {/* Right Side - Cards Grid */}
+                      <div className="features-grid">
+                          {/* Card 1 */}
+                          <div className="feature-card">
+                              <div className="feature-icon red">
+                                  <svg className="icon red" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                                  </svg>
+                              </div>
+                              <h3>Ephemeral Infrastructure</h3>
+                              <p>Functions scale to zero and live for milliseconds, making them impossible to monitor with traditional agent-based security.</p>
+                          </div>
+
+                          {/* Card 2 */}
+                          <div className="feature-card">
+                              <div className="feature-icon orange">
+                                  <svg className="icon orange" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                                  </svg>
+                              </div>
+                              <h3>IAM Permission Sprawl</h3>
+                              <p>Managing least-privilege access across hundreds of micro-functions is complex, leading to dangerous over-provisioning.</p>
+                          </div>
+
+                          {/* Card 3 */}
+                          <div className="feature-card">
+                              <div className="feature-icon yellow">
+                                  <svg className="icon yellow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                  </svg>
+                              </div>
+                              <h3>Fragmented Visibility</h3>
+                              <p>Lack of a single pane of glass for security posture across multiple regions and accounts creates blind spots.</p>
+                          </div>
+
+                          {/* Card 4 */}
+                          <div className="feature-card">
+                              <div className="feature-icon purple">
+                                  <svg className="icon purple" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                                  </svg>
+                              </div>
+                              <h3>Code Vulnerabilities</h3>
+                              <p>Dependencies and third-party libraries introduce vulnerabilities that are hard to track in a distributed architecture.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
         </section>
 
         {/* Section 4 - Cloud Sentinel Has You Covered */}

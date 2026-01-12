@@ -214,6 +214,220 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
     background: transparent;
 }
 
+.stats-section {
+  background-color: #0f1729;
+  padding: 80px 40px 100px 40px;
+  min-height: 50vh;
+}
+
+.stats-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 60px;
+  text-align: center;
+}
+
+.stat-item h3 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.stat-item:nth-child(1) h3 {
+  color: #3b82f6;  
+}
+
+.stat-item:nth-child(2) h3 {
+  color: #ffffff;  
+}
+
+.stat-item:nth-child(3) h3 {
+  color: #ffffff;  
+}
+
+.stat-item:nth-child(4) h3 {
+  color: #3b82f6;  
+}
+
+.stat-item p {
+  color: #64748b;
+  font-size: 0.85rem;
+}
+
+.features-section {
+  background-color: #0f1729;
+  padding: 120px 40px 150px 40px;
+  min-height: 100vh;
+}
+
+.features-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.features-content {
+  display: grid;
+  grid-template-columns: 380px 1fr;
+  gap: 80px;
+  align-items: start;
+}
+
+.features-left {
+  position: sticky;
+  top: 100px;
+}
+
+.features-tag {
+  color: #3b82f6;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.features-left h2 {
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+.features-left p {
+  color: #94a3b8;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.read-more {
+  color: #3b82f6;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.read-more:hover {
+  color: #60a5fa;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.feature-card {
+  background: rgba(30, 41, 59, 0.4);
+  backdrop-filter: blur(10px);
+  border: 1px solid #2d3748;
+  border-radius: 16px;
+  padding: 36px;
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+  border-color: #3b82f6;
+  transform: translateY(-4px);
+  background: rgba(30, 41, 59, 0.6);
+}
+
+.feature-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.feature-icon.red {
+  background-color: rgba(239, 68, 68, 0.15);
+}
+
+.feature-icon.orange {
+  background-color: rgba(251, 146, 60, 0.15);
+}
+
+.feature-icon.yellow {
+  background-color: rgba(234, 179, 8, 0.15);
+}
+
+.feature-icon.purple {
+  background-color: rgba(168, 85, 247, 0.15);
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
+}
+
+.icon.red {
+  color: #ef4444;
+}
+
+.icon.orange {
+  color: #fb923c;
+}
+
+.icon.yellow {
+  color: #eab308;
+}
+
+.icon.purple {
+  color: #a855f7;
+}
+
+.feature-card h3 {
+  color: #ffffff;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.feature-card p {
+  color: #94a3b8;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+@media (max-width: 1024px) {
+  .features-content {
+    grid-template-columns: 1fr;
+  }
+
+  .features-left {
+    position: static;
+  }
+}
+
+@media (max-width: 768px) {
+  .stats-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .stat-item h3 {
+    font-size: 2rem;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .features-left h2 {
+    font-size: 2rem;
+  }
+}
+
 /* ========================================
    SECTION 4 - CLOUD SENTINEL
    ======================================== */
