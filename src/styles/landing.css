@@ -1,6 +1,4 @@
-/* ========================================
-   RESET & BASE - CRITICAL
-   ======================================== */
+/* Root CSS */
 * {
     margin: 0 !important;
     padding: 0 !important;
@@ -22,15 +20,12 @@ body {
     line-height: 1.5;
 }
 
-/* Remove default margins from common elements */
 h1, h2, h3, h4, h5, h6, p, ul, li {
     margin: 0 !important;
     padding: 0 !important;
 }
 
-/* ========================================
-   NAVIGATION
-   ======================================== */
+/* Navigation */
 .navbar {
     position: fixed !important;
     top: 0 !important;
@@ -139,9 +134,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
     box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4);
 }
 
-/* ========================================
-   HERO SECTION
-   ======================================== */
+/* Hero  */
 .hero {
     min-height: 100vh !important;
     background-image: url("/images/Backgroundimage.png");
@@ -205,9 +198,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
     background-color: #21499e !important;
 }
 
-/* ========================================
-   SECTION 3 PLACEHOLDER
-   ======================================== */
+/* Section 3 */
 .section-3 {
     min-height: 400px;
     padding: 4rem 2rem !important;
@@ -667,9 +658,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
     box-shadow: 0 5px 15px rgba(59, 130, 246, 0.3);
 }
 
-/* ========================================
-   PRICING SECTION
-   ======================================== */
+/* Section 5 */
 .pricing {
     padding: 5rem 0 !important;
     background: linear-gradient(180deg, transparent 0%, rgba(59, 157, 255, 0.02) 100%);
@@ -844,9 +833,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
     font-size: 1rem !important;
 }
 
-/* ========================================
-   FOOTER
-   ======================================== */
+/* Footer */
 footer {
     background: linear-gradient(180deg, #0a0f1e 0%, #050810 100%) !important;
     color: #94a3b8 !important;
@@ -986,9 +973,7 @@ footer {
     margin: 0 !important;
 }
 
-/* ========================================
-   RESPONSIVE
-   ======================================== */
+
 @media (max-width: 1024px) {
     .navbar {
         padding: 1rem 2rem !important;
