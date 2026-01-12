@@ -205,6 +205,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
     background: transparent;
 }
 
+<<<<<<< HEAD
 .stats-section {
   background-color: #0f1729;
   padding: 80px 40px 100px 40px;
@@ -429,6 +430,9 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
 /* ========================================
    SECTION 4 - CLOUD SENTINEL
    ======================================== */
+=======
+/* Section 4 */
+>>>>>>> de72ba4a46c1eb0cc9ce795c2602370007e69b6c
 .section-4 {
     position: relative !important;
     max-width: 1200px !important;
