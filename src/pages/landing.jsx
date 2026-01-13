@@ -55,7 +55,7 @@ const Landing = () => {
                   </div>
                   <div className="stat-item">
                       <h3>500+</h3>
-                      <p>Rules Built-in</p>
+                      <p>Tests Done</p>
                   </div>
                   <div className="stat-item">
                       <h3>100%</h3>
